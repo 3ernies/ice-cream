@@ -1,0 +1,218 @@
+body {
+font-family: sofia-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+ h1 {
+font-family: sofia-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+color: #FFFFFF;
+ 
+}
+
+section.orbit-image {
+  padding: 2rem;
+}
+
+section.orbit-container {
+  padding: 2rem;
+}
+
+header {
+  padding: 2rem;
+}
+
+@media screen and (max-width: 39.9375em){
+  header .menu {
+    /* position menu on top, full screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    /* position content in vertical center */
+    flex-direction: column;
+    justify-content: center;
+    /* add styling details */
+    padding: 2rem;
+    background-color: #E79CB7;
+  }
+  header .menu li {
+    justify-content: flex-start !important;
+    font-size: 2rem;
+  }
+  header .menu li a {
+    /* add styling details */
+    color: #FFFF;
+  }
+header .menu li a:hover {
+    /* add styling details */
+    color:   #D73737;
+  }
+
+  header button {
+    cursor: pointer;
+  }
+  header button.show-for-small-only {
+    position: relative;
+    z-index: 2;
+  }
+  header button.show-for-small-only.btnToggle {
+    color: #822238;
+  }
+}
+
+
+
+header{
+	font-family: sofia-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
+
+  background-color: #E79CB7;
+  color: #FFFFFF;
+
+}
+.topnav {
+font-family: sofia-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
+color: #FFFFFF;
+}
+
+header a {
+
+  color: #FFFFFF;
+
+}
+
+header a:hover {
+  color: #D73738;
+}
+
+
+.topnav a{
+	padding: 2.5rem;
+  color: #FFFFFF;
+}
+
+nav{
+	padding-left: 10rem;
+   color: #FFFFFF;
+}
+
+
+footer {
+font-family: sofia-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+background-color: #822238;
+color: #FFFFFF;
+padding: 2.5rem;
+
+}
+
+h2 {
+  font-family: sofia-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+color: #E79CB7;
+}
+
+
+section.socials a {
+color: #FFFFFF;
+
+}
+
+
+section.socials a:hover {
+color: #E79CB7;
+}
+
+
+section.tickets {
+font-family: freight-big-pro,serif;
+font-weight: 700;
+font-style: normal;
+text-align: center;
+background-color: #E79CB7;
+font-size: 30pt;
+padding: 2.5rem;
+}
+
+section.tickets a {
+  color: #822238;
+
+}
+
+section.tickets button {
+  background-color: #FFFFFF; 
+  border: none;
+  color: #822238;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 16px;
+
+  font-family: sofia-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+section.tickets button:hover {
+  background-color: #822238;
+  color: #FFFFFF;
+}
+
+h2 {
+   font-family: sofia-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+color: #E79CB7;
+}
+
+h3 {
+  font-family: sofia-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+color: #E79CB7;
+font-size: 15pt;
+}
+
+section.copy {
+  text-align: right;
+  font-size: 10pt;
+}
+
+section.newsletter button {
+  background-color: #FFFFFF; 
+  border: none;
+  color: #822238;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 16px;
+
+  font-family: sofia-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+section.newsletter button:hover {
+  background-color: #822238;
+  color: #FFFFFF;
+
+}
+
+
+
+
+
